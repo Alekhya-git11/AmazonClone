@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alekhya's Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <!-- box 1  -->
+            <div class="nav-logo hover-effect">
+            </div>
+            <!-- box 2 -->
+            <div class="location-box hover-effect">
+                <p class="deliv">Deliver to</p>
+                <div class="loc-ind">
+                    <!-- location icon -->
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="ind">India</p>
+                </div>
+            </div>
+            <!--  BOX 3 select box , search input magnifying glass button -->
+            <div class="nav-search">
+                <select name="Deparment" class="select">
+                    <option value="All">All</option>
+                    <option value="Arts & Science">Arts & Science</option>
+                    <option value="Automotive">Automotive</option>
+                    <option value="Health & Household">Health & Household</option>
+                    <option value="Deals">Deals</option>
+                    <option value="Computers">computers</option>
+                </select>
+                <!-- input field -->
+                <input type="text" placeholder="Search Amazon" class="text-field">
+                <!-- search (magnifying glass icon) -->
+                <div class="search-icon">
+                    <!-- magnifying glass icon -->
+                    <i class="fa-solid fa-magnifying-glass magfy"></i>
+                </div>
+            </div>
+            <!-- BOX 4 United states language flag icon(language selection) -->
+            <div class="outer hover-effect">
+                <div class="nav-language">
+                    <!-- flag icon -->
+                    <div class="flag-icon">
+                        <img src="united-states-icon.png" alt="" class="flag-icon">
+                    </div>
+
+                    <div class="text">
+                        <p>EN</p>
+                    </div>
+                    <!-- dropdown-icon -->
+                    <div class="dropdown-icon">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!--  box 5 Sign in  -->
+            <div class="nav-signin hover-effect">
+                <div class="All">
+                    <div>
+                        <p class="hello">Hello,sign in</p>
+                    </div>
+                    <div class="inner-container">
+                        <div>
+                            <p class="font-weight">Account & Lists</p>
+                        </div>
+                        <div class="icon">
+                            <!-- dropdown-icon  -->
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BOX 6 Returns and orders-->
+            <div class="return hover-effect">
+                <div class="inner-return">
+                    <p class="hello">Returns</p>
+                    <p class="font-weight-orders">& Orders</p>
+                </div>
+            </div>
+            <!-- BOX 7  Cart-->
+            <div class="nav-cart hover-effect">
+                <div class="inner-cart">
+                    <i class="fa-solid fa-cart-shopping cart-icon"></i>
+                    Cart
+                </div>
+            </div>
+        </div>
+        <!-- Second nav-bar -->
+        <div class="nav-bar-2">
+            <div class="menu-box item1 hover-effect">
+                <i class="fa-solid fa-bars"></i>
+                <span>All</span>
+            </div>
+            <div class="nav-bar2-ops">
+                <p class="item1 hover-effect">Today's Deals</p>
+                <p class="item1 hover-effect">Customer Service</p>
+                <p class="item1 hover-effect">Registry</p>
+                <p class="item1 hover-effect">Gift Cards</p>
+                <p class="item1 hover-effect">Sell</p>
+            </div>
+        </div>
+    </header>
+    <!-- Amazon's Navigation Bar completed up to here -->
+    <!-- Hero Section (Main section)  -->
+    <div class="hero-section">
+        <a href="#" class="control control-prev"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="#" class="control control-nxt"><i class="fa-solid fa-arrow-right"></i></a>
+        <div class="hero-msg">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.<a href="#"> Click here to go to amazon.in</a></p>
+        </div>
+        <ul>
+            <img src="image1.jpg" alt="heroimg" class="hero-img" width="100%">
+            <!-- <img src="image2.jpg" alt="heroimg" class="hero-img" width="100%">
+            <img src="image3.jpg" alt="heroimg" class="hero-img" width="100%">
+            <img src="image4.jpg" alt="heroimg" class="hero-img" width="100%">
+            <img src="image5.jpg" alt="heroimg" class="hero-img" width="100%"> -->
+        </ul>
+    </div>
+    <!-- Shop-Section -->
+    <div class="box-row box-header">
+        <div class="box-col">
+            <h3>Deals in PCs</h3>
+            <div class="img-cont"><img src="shop-item1.jpg" alt=""></div>
+            <a href="#">shop now</a>
+        </div>
+        <div class="box-col">
+            <h3>Home décor under $50</h3>
+            <!-- image size 289x283 ( edited before using it in webpage) -->
+            <div class="img-cont"><img src="shop-item2.jpg" alt=""></div>
+            <a href="#">shop now</a>
+        </div>
+        <div class="box-col">
+            <h3>Shop activity trackers and smartwatches</h3>
+            <div class="img-cont"><img src="shop-item5.jpg" alt=""></div>
+            <a href="#" class="watch">shop now</a>
+        </div>
+        <div class="box-col">
+            <h3>Toys under $25</h3>
+            <div class="img-cont"><img src="shop-item3.jpg" alt=""></div>
+            <a href="#">shop now</a>
+        </div>
+    </div>
+    <!-- 2nd row -->
+    <div class="box-row row2">
+        <div class="box-col">
+            <h3>A whole new way to work</h3>
+            <div class="img-cont"><img src="shop-item6.jpg" alt=""></div>
+            <a href="#">shop now</a>
+        </div>
+        <div class="box-col">
+            <h3>Player's paradise starts here</h3>
+            <!-- image size 289x283 ( edited before using it in webpage) -->
+            <div class="img-cont"><img src="shop-item7.jpg" alt=""></div>
+            <a href="#">shop now</a>
+        </div>
+        <div class="box-col">
+            <h3>Upgrade your office furniture</h3>
+            <div class="img-cont"><img src="shop-item8.jpg" alt=""></div>
+            <a href="#" class="watch">shop now</a>
+        </div>
+        <div class="box-col">
+            <h3>Great prices on shoes</h3>
+            <div class="img-cont"><img src="shop-item4.jpg" alt=""></div>
+            <a href="#">shop now</a>
+        </div>
+    </div>
+    <!-- products slider -->
+
+    <div class="product-slider">
+        <h2>Best Sellers in Computers & Accessories</h2>
+        <div class="products">
+            <img src="product1.jpg" alt="">
+            <img src="product2.jpg" alt="">
+            <img src="product3.jpg" alt="">
+            <img src="product4.jpg" alt="">
+            <img src="product5.jpg" alt="">
+            <img src="product6.jpg" alt="">
+            <img src="product7.jpg" alt="">
+            <img src="product8.jpg" alt="">
+            <img src="product9.jpg" alt="">
+            <img src="product10.jpg" alt="">
+            <img src="product11.jpg" alt="">
+            <img src="product12.jpg" alt="">
+            <img src="product13.jpg" alt="">
+            <img src="product14.jpg" alt="">
+            <img src="product15.jpg" alt="">
+            <img src="product16.jpg" alt="">
+            <img src="product17.jpg" alt="">
+            <img src="product18.jpg" alt="">
+        </div>
+    </div>
+    <!-- Another row4 -->
+    <div class="box-row row2">
+        <div class="box-col">
+            <h3>Black Shoes</h3>
+            <div class="img-cont"><img src="shop-item9.jpg" alt=""></div>
+            <a href="#">shop now</a>
+        </div>
+        <div class="box-col">
+            <h3>Yellow stylish shoes</h3>
+            <!-- image size 289x283 ( edited before using it in webpage) -->
+            <div class="img-cont"><img src="shop-item10.jpg" alt=""></div>
+            <a href="#">shop now</a>
+        </div>
+        <div class="box-col">
+            <h3>Running shoes</h3>
+            <div class="img-cont"><img src="shop-item11.jpg" alt=""></div>
+            <a href="#" class="watch">shop now</a>
+        </div>
+        <div class="box-col">
+            <h3>Formal shoes</h3>
+            <div class="img-cont"><img src="shop-item12.jpg" alt=""></div>
+            <a href="#">shop now</a>
+        </div>
+    </div>
+    <!-- Product slider with price -->
+    <div class="product-slider">
+        <h2>Best Sellers in Sports & Outdoors</h2>
+        <div class="products">
+            <img src="product19.jpg" alt="">
+            <img src="product20.jpg" alt="">
+            <img src="product21.jpg" alt="">
+            <img src="product22.jpg" alt="">
+            <img src="product23.jpg" alt="">
+            <img src="product24.jpg" alt="">
+            <img src="product25.jpg" alt="">
+            <img src="product26.jpg" alt="">
+            <img src="product27.jpg" alt="">
+            <img src="product28.jpg" alt="">
+            <img src="product29.jpg" alt="">
+            <img src="product30.jpg" alt="">
+            <img src="product31.jpg" alt="">
+            <img src="product32.jpg" alt="">
+            <img src="product33.jpg" alt="">
+            <img src="product34.jpg" alt="">
+            <img src="product35.jpg" alt="">
+            <img src="product36.jpg" alt="">
+        </div>
+    </div>
+    <!--sign in Footer -->
+    <footer>
+        <div class="footer-sign-in">
+            <div class="top-bottom-line">
+                <div class="insider">
+                    <p>See personalized recommendations</p>
+                    <div class="sign-in-button">
+                        <p>Sign in</p>
+                    </div>
+                    <h4>New customer? <a>Start here.</a></h4>
+                </div>
+            </div>
+        </div>
+        <!-- Back to top footer-->
+        <div class="footer">
+            Back to top
+        </div>
+        <!-- 2nd footer -->
+        <div class="second-footer">
+            <div class="second-inner-footer">
+                <ul>
+                    <p>Get to Know Us</p>
+                    <a>Careers</a>
+                    <a>Blog</a>
+                    <a>About Amazon</a>
+                    <a>Investor Relations</a>
+                    <a>Amazon Devices</a>
+                    <a>Amazon Science</a>
+                </ul>
+                <ul>
+                    <p>Make Money with Us</p>
+                    <a>Sell products on Amazon</a>
+                    <a>Sell on Amazon Business</a>
+                    <a>Sell apps on Amazon</a>
+                    <a>Become an Affiliate</a>
+                    <a>Advertise Your Products</a>
+                    <a>Self-Publish with Us</a>
+                    <a>Host an Amazon Hub</a>
+                </ul>
+                <ul>
+                    <p>Amazon Payment Products</p>
+                    <a>Amazon Business Card</a>
+                    <a>Shop with Points</a>
+                    <a>Reload Your Balance</a>
+                    <a>Amazon Currency Converter</a>
+                </ul>
+                <ul>
+                    <p>Let Us Help You</p>
+                    <a>Amazon and COVID-19</a>
+                    <a>Your Account</a>
+                    <a>Your Orders</a>
+                    <a>Shipping Rates & Policies</a>
+                    <a>Returns & Replacements</a>
+                    <a>Manage Your Content and Devices</a>
+                    <a>Help</a>
+                </ul>
+            </div>
+        </div>
+        <!-- 3rd footer -->
+         <div class="footer3">
+            <div class="footer-logo"></div>
+            
+         </div>
+        <!-- last footer -->
+        <div class="last-footer">
+            <a>Conditions of Use</a>
+            <a>Privacy Notice</a>
+            <a>Consumer Health Data Privacy Disclosure</a>
+            <a>Your Ads Privacy Choices</a>
+        </div>
+        <div class="copyrights">
+            <a>© 1996-2024, Amazon.com, Inc. or its affiliates</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
